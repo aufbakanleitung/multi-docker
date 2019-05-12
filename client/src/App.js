@@ -19,7 +19,7 @@ class App extends Component {
             <Route path="/otherpage" component={OtherPage} />
           </div>
           <p className="App-intro">
-            It contains of 3 docker containers, with PostGRES, Redis and Node. 
+            This site consists of 6 docker containers: a client and server with NodeJS, PostGRES, Redis, Nginx and Node. 
             <ul>
               <li>This implementation aims to showcase DevOps principles</li>
               <li>How multiple dockers can communicate in the cloud.</li>
