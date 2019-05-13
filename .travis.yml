@@ -6,7 +6,7 @@ before_install:
   - docker build -t hvdveer/react-test -f ./client/Dockerfile.dev ./client
 
 script:
-  - docker run -e CI=true hvdveer/docker-react npm run test -- --watchAll=false
+  - docker run -e CI=true hvdveer/react-test npm run test -- --watchAll=false
 
 after_success:
   - docker build -t hvdveer/multi-docker-client ./client
