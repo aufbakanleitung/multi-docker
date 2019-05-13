@@ -3,21 +3,21 @@ services:
   - docker
 
 before_install:
-  - docker build -t stantronic/react-test -f ./client/Dockerfile.dev ./client
+  - docker build -t hvdveer/react-test -f ./client/Dockerfile.dev ./client
 
 script:
-  - docker run stantronic/react-test npm test -- --coverage
+  - docker run -e CI=true hvdveer/docker-react npm run test -- --watchAll=false
 
 after_success:
-  - docker build -t stantronic/multi-docker-client ./client
-  - docker build -t stantronic/multi-docker-nginx ./nginx
-  - docker build -t stantronic/multi-docker-server ./server
-  - docker build -t stantronic/multi-docker-worker ./worker
+  - docker build -t hvdveer/multi-docker-client ./client
+  - docker build -t hvdveer/multi-docker-nginx ./nginx
+  - docker build -t hvdveer/multi-docker-server ./server
+  - docker build -t hvdveer/multi-docker-worker ./worker
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
-  - docker push stantronic/multi-docker-client 
-  - docker push stantronic/multi-docker-nginx
-  - docker push stantronic/multi-docker-server
-  - docker push stantronic/multi-docker-worker
+  - docker push hvdveer/multi-docker-client 
+  - docker push hvdveer/multi-docker-nginx
+  - docker push hvdveer/multi-docker-server
+  - docker push hvdveer/multi-docker-worker
 
 deploy:
   provider: elasticbeanstalk
