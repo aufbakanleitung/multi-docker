@@ -1,10 +1,10 @@
 # multi-docker
 Overly complex Fibonnacci calculator to practice containerization
 
-It contains of 3 docker containers, with PostGRES, Redis and Node.
+It contains 6 docker containers: 3 with Node, 1 with PostGRES, Redis, and Nginx.
 
 This implementation aims to showcase DevOps principles
 
 multiple dockers can communicate in the cloud
 
-Automated testing and deploymen using Travis CI
+Automated testing and deployment using Travis CI
