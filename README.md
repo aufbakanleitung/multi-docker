@@ -3,7 +3,8 @@ Overly complex Fibonnacci calculator to showcase the DevOps principles: Containe
 
 1. Copy with: ```console git clone https://github.com/aufbakanleitung/multi-docker.git```
 2. Run development version with: ```console docker-compose up ```
-3. Deployment is automatic when code is pushed to this repository
+3. Browse to: http://localhost:3050/
+4. Deployment is automatic when code is pushed to this repository
 
 The local development version consists of 6 docker containers. 3 with Node.js (server, worker, client), 1 with PostGRES, Redis, and Nginx. The building and communication between the containers is configured in Docker-compose. Compose directy links to the custom files on the such that a change in the website does not require a new build in Docker. 
 
