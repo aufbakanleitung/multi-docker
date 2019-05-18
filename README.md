@@ -1,7 +1,7 @@
 # multi-docker
 Overly complex Fibonnacci calculator to showcase the DevOps principles: Containerization, Continuous Integration, and Cloud Automation in AWS.
 
-1. Copy with: ```console git clone ```
+1. Copy with: ```console git clone https://github.com/aufbakanleitung/multi-docker.git```
 2. Run development version with: ```console docker-compose up ```
 3. Deployment is automatic when code is pushed to this repository
 
@@ -16,8 +16,6 @@ The local development version consists of 6 docker containers. 3 with Node.js (s
 
 ![Multi-docker-local]
 
-Run with: 
-```console docker-compose up ```
 
 
 The production version consists of 4 docker containers and 3 AWS services: IAM, Elastic Beanstalk, RDS, S3, ElastiCache, VPS
