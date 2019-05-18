@@ -1,4 +1,4 @@
-# multi-docker
+# Multi-docker
 Overly complex Fibonnacci calculator to showcase the DevOps principles: Containerization, Continuous Integration, and Cloud Automation in AWS.
 
 1. Copy with: ```console git clone https://github.com/aufbakanleitung/multi-docker.git```
@@ -6,6 +6,8 @@ Overly complex Fibonnacci calculator to showcase the DevOps principles: Containe
 3. Browse to: http://localhost:3050/
 4. Deployment is automatic when code is pushed to this repository
 5. Website is [live on AWS here](http://multidocker-env.2q8jdskgqs.us-east-2.elasticbeanstalk.com/)
+
+## Development version
 
 The local development version consists of 6 docker containers. 3 with Node.js (server, worker, client), 1 with PostGRES, Redis, and Nginx. The building and communication between the containers is configured in Docker-compose. Compose directy links to the custom files on the such that a change in the website does not require a new build in Docker. 
 
@@ -19,8 +21,7 @@ The local development version consists of 6 docker containers. 3 with Node.js (s
 ![Multi-docker-local]
 
 
-
----
+## Production version
 
 The production version consists of 4 docker containers and 3 AWS services: Identity and Access management, Elastic Beanstalk, Relational Database Service, S3 Storage, ElastiCache, Virtual Private Cloud
 
@@ -28,7 +29,7 @@ The production version consists of 4 docker containers and 3 AWS services: Ident
 
 
 
----
+## Deployment flow
 
 Automated testing, deployment and secure credential storage using Travis CI
 
@@ -41,10 +42,6 @@ Automated testing, deployment and secure credential storage using Travis CI
   * https://hub.docker.com/r/hvdveer/multi-docker-nginx
   * https://hub.docker.com/r/hvdveer/multi-docker-client
 * Website on AWS: http://multidocker-env.2q8jdskgqs.us-east-2.elasticbeanstalk.com/
-
-
----
-
 
 
 
