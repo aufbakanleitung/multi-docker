@@ -33,6 +33,17 @@ Automated testing, deployment and secure credential storage using Travis CI
 
 ![Multi-docker-CI]
 
+* Travis CI: https://travis-ci.com/aufbakanleitung/multi-docker
+* Docker-hub containers:
+⋅⋅* https://hub.docker.com/r/hvdveer/multi-docker-worker
+⋅⋅* https://hub.docker.com/r/hvdveer/multi-docker-server
+⋅⋅* https://hub.docker.com/r/hvdveer/multi-docker-nginx
+⋅⋅* https://hub.docker.com/r/hvdveer/multi-docker-client
+* Website on AWS: http://multidocker-env.2q8jdskgqs.us-east-2.elasticbeanstalk.com/
+
+
+---
+
 
 
 
