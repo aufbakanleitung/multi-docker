@@ -16,13 +16,13 @@ The local development version consists of 6 docker containers. 3 with Node.js (s
 
 ![Multi-docker-local]
 
-
+---
 
 The production version consists of 4 docker containers and 3 AWS services: Identity and Access management, Elastic Beanstalk, Relational Database Service, S3 Storage, ElastiCache, Virtual Private Cloud
 
 ![Multi-docker-AWS]
 
-
+---
 
 Automated testing, deployment and secure credential storage using Travis CI
 
