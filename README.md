@@ -1,4 +1,4 @@
-# Containerized fibbonaci calculator
+# Containerized Fibonnacci calculator
 Overly complex Fibonnacci calculator to showcase the DevOps principles: Containerization, Continuous Integration, and Cloud Automation in AWS.
 
 1. Copy with: ```console git clone https://github.com/aufbakanleitung/multi-docker.git```
