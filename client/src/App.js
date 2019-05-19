@@ -22,7 +22,7 @@ class App extends Component {
             This site consists of 6 docker containers: a client and server with NodeJS, PostGRES, Redis, Nginx and Node. 
             <ul>
               <li>This implementation aims to showcase DevOps principles</li>
-              <li>How multiple dockers can communicate in the cloud.</li>
+              <li>6 docker containers can communicate in the cloud.</li>
               <li>Automated testing and deployment</li>
               <li>Using Travis CI</li>
             </ul>
