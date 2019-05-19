@@ -14,8 +14,8 @@ The local development version consists of 6 docker containers. 3 with Node.js (s
 * Nginx:    Listens to localhost:3050, routes data to Client and Server
 * Client:   Front-end of the website, sends values to Express server
 * Server:   Acts as an API, delivers and retreives values to Redis and Postgres.
-* Redis:    Stores all indices and calculated values
-* Postgres: Stores a permanent list of indices that have been received
+* Redis:    Stores all indices shown under *_"Indexes I have seen"_*
+* Postgres: Stores a permanent list of indices shown under *_"Calculated Values"_*           
 * Worker:   Watches Redis for new indices, calculates fibonnacci value, and returns answer
 
 ![Multi-docker-local]
