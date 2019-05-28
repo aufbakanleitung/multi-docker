@@ -5,7 +5,7 @@ Overly complex Fibonnacci calculator to showcase the DevOps principles: Containe
 2. Run development version with: ```console docker-compose up ```
 3. Browse to: http://localhost:3050/
 4. Deployment is automatic when code is pushed to this repository: ```console git push```
-5. Website is [live on AWS here](http://multidocker-env.2q8jdskgqs.us-east-2.elasticbeanstalk.com/)
+5. Website is [live on AWS here](http://multidocker-env.2q8jdskgqs.us-east-2.elasticbeanstalk.com/) (not anymore, it costs money)
 
 ## Development version
 
