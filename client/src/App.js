@@ -10,6 +10,7 @@ class App extends Component {
     return (
       <Router>
         <div className="App">
+            <img src="https://raw.githubusercontent.com/aufbakanleitung/multi-docker/master/info/Multi-docker-local.png" alt="diagram"/>
             <img src={logo} className="App-logo" alt="logo" />
             <h1 className="App-title">An unnecessarily complicated Fibonacci calculator</h1>
             <Link to="/">Home</Link>&nbsp;&nbsp;
@@ -23,8 +24,7 @@ class App extends Component {
             <ul>
               <li>This implementation aims to showcase DevOps principles</li>
               <li>6 docker containers can communicate in the cloud.</li>
-              <li>Automated testing and deployment</li>
-              <li>Using Travis CI</li>
+              <li>Automated testing and deployment using Travis CI</li>
             </ul>
           </p>
         </div>
