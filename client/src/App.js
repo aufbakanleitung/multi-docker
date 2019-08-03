@@ -25,6 +25,7 @@ class App extends Component {
               <li>This implementation aims to showcase DevOps principles</li>
               <li>6 docker containers can communicate in the cloud.</li>
               <li>Automated testing and deployment using Travis CI</li>
+              <li>Now also running on Kubernetes ^^</li>
             </ul>
           </p>
         </div>
