@@ -1,5 +1,4 @@
 [![Build Status](https://travis-ci.com/aufbakanleitung/multi-docker.svg?branch=master)](https://travis-ci.com/aufbakanleitung/multi-docker)
-
 # Containerized Fibonnacci calculator
 Overly complex Fibonnacci calculator to showcase the DevOps principles: Containerization, Continuous Integration, and Cloud Automation in AWS.
 
